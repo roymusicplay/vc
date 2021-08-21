@@ -16,7 +16,7 @@ export const Start = Composer.command('start', async (ctx) => {
         `If you like this bot consider adding a star to the <a href="https://github.com/ArnabXD/TGVCBot">repository</a>`
     await ctx.replyWithHTML(text, {
         ...Markup.inlineKeyboard([
-            [Markup.button.url('View Source', 'https://github.com/ArnabXD/TGVCBot')]
+            [Markup.button.url('Owner', 'https://t.me/abhinasroy')]
         ]),
         disable_web_page_preview: true
     })
